@@ -1,0 +1,375 @@
+.tbl {
+  border-radius: 10px 10px 0px 0px;
+  background-color: #384b97;
+  height: 284px;
+}
+.act:active,
+.act:focus {
+  background-color: #384b97;
+  border-radius: 20px 0px 0px 0px;
+}
+.r-act:active,
+.r-act:focus {
+  background-color: #384b97;
+  border-radius: 0px 20px 0px 0px;
+}
+.m-act:active,
+.m-act:focus {
+  background-color: #384b97;
+  border-radius: 0px;
+}
+.a:active,
+.a:focus {
+  background-color: #384b97;
+}
+tr {
+  border-bottom: 1px solid silver;
+}
+tbody > tr {
+  background-color: #fff;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+.flow {
+  overflow: auto;
+}
+.contain {
+  border-radius: 20px;
+  background-color: #6a79b1;
+  max-height: max-content;
+  height: 552px;
+}
+
+.contain a:focus {
+  background-color: #384b97;
+}
+.custom-container {
+  max-height: max-content;
+  width: 100%;
+  height: 552px;
+  overflow: auto;
+}
+.set-container {
+  max-height: max-content;
+  width: 100%;
+  height: 552px;
+}
+.dnd {
+  border: 4px dashed gray;
+  margin: 2rem;
+}
+.net-container {
+  max-height: max-content;
+  height: auto;
+}
+.footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+}
+.tx {
+  border-radius: 0px 0px 20px 20px;
+  max-height: max-content;
+  height: 467px;
+}
+.bal {
+  width: 30rem;
+  background-color: #384b97;
+  height: 16rem;
+  max-height: max-content;
+  border-radius: 10px;
+}
+.tbd {
+  width: 30rem;
+  background-color: #eeeeee;
+  height: 16rem;
+  max-height: max-content;
+  border-radius: 10px;
+}
+.tbl-sm {
+  border-radius: 10px 10px 0px 0px;
+  background-color: #384b97;
+  height: auto;
+  width: 30rem;
+}
+.latest {
+  height: 200px;
+  width: 30rem;
+}
+.btn1 {
+  background-color: #fff;
+  color: #384b97;
+  width: 200px;
+}
+.in {
+  background-color: #384b97;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.send-container {
+  border-radius: 0px 0px 20px 20px;
+  max-height: max-content;
+  height: 470px;
+  background-color: #384b97;
+  overflow: auto;
+}
+.receive-container {
+  border-radius: 0px 0px 20px 20px;
+  max-height: max-content;
+  height: 470px;
+  background-color: #fff;
+  overflow: auto;
+}
+
+.brdr {
+  border: 5px solid silver;
+}
+.b {
+  border: 2px solid silver;
+  border-radius: 10px;
+}
+.background {
+  background-color: #eeeeee;
+}
+.custom-card {
+  width: 30rem;
+  height: 6rem;
+  max-height: max-content;
+  border-radius: 10px;
+}
+.valid-card {
+  width: 30rem;
+  height: max-content;
+  max-height: max-content;
+  border-radius: 10px;
+  background-color: #384b97;
+}
+.custom-btn {
+  background-color: #384b97;
+  color: #fff;
+  width: max-content;
+  height: max-content;
+}
+.cross {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #fff;
+  color: black;
+  margin-left: -35px;
+  margin-top: -10px;
+  display: none;
+}
+.cross > i {
+  margin-left: -7px;
+  margin-top: 7px;
+}
+
+.hov {
+  background-color: #384b97;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-left: 15px;
+}
+.hov:hover + .cross {
+  display: block;
+}
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+.bg {
+  background-color: #384b97;
+}
+.b-radius {
+  border-radius: 0px 0px 4px 4px;
+}
+.tch-cont {
+  max-height: max-content;
+  height: 477px;
+  border-radius: 0px 0px 20px 20px;
+  overflow: auto;
+}
+.img-brdr {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #eeeeee;
+}
+.high {
+  height: 100vh;
+}
+
+.tech-card {
+  border-left: 1px solid silver;
+  border-right: 1px solid silver;
+  height: auto;
+  width: 300px;
+  border-radius: 0px 0px 20px 20px;
+}
+.l-corner {
+  border-radius: 0px 0px 0px 20px;
+  width: 150px;
+  background-color: darkgrey;
+}
+.r-corner {
+  border-radius: 0px 0px 20px 0px;
+  width: 150px;
+}
+.bord {
+  border-bottom: 1px solid silver;
+}
+.rad {
+  border-radius: 8px;
+}
+.mar {
+  margin-left: 160px;
+}
+.marg {
+  margin-left: 220px;
+}
+.wid {
+  width: 700px;
+}
+.mar1 {
+  margin-right: 80px;
+}
+.lef {
+  margin-left: -2px;
+}
+@media (max-width: 768px) {
+  .mar {
+    margin-left: 80px;
+  }
+  .inp {
+    background-color: #384b97;
+    border: 1px solid #fff;
+    color: #fff;
+    width: auto;
+  }
+  .tech-card {
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    height: auto;
+    width: auto;
+    border-radius: 0px 0px 20px 20px;
+  }
+  .tbd {
+    width: 25rem;
+    height: auto;
+  }
+  .bal {
+    width: 25rem;
+    height: auto;
+  }
+  .latest {
+    height: auto;
+    width: 25rem;
+    overflow: auto;
+    margin-top: 10px;
+  }
+  .custom-container {
+    height: auto;
+    padding: 0;
+    margin-bottom: 30px;
+    width: 330px;
+    overflow-x: hidden;
+  }
+  .set-container {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .tx {
+    height: auto;
+    width: 100%;
+    border-radius: 0;
+  }
+  .send-container {
+    border-radius: 0;
+    height: auto;
+    width: 100%;
+    background-color: #384b97;
+  }
+  .receive-container {
+    border-radius: 0;
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+  }
+  .wid {
+    width: 315px;
+  }
+  .marg {
+    margin-left: 60px;
+  }
+  .contain {
+    height: auto;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 0;
+  }
+  .tch-cont {
+    height: auto;
+    width: 100%;
+    border-radius: 0;
+  }
+  .l-corner {
+    border-radius: 0px 0px 0px 20px;
+    width: 148px;
+    background-color: darkgrey;
+  }
+  .r-corner {
+    border-radius: 0px 0px 20px 0px;
+    width: 148px;
+  }
+  .w-sml {
+    width: 250px;
+    margin-left: 10px;
+  }
+  .lef {
+    margin-left: -32px;
+  }
+  .cnt {
+    width: max-content;
+  }
+
+  .tbl-sm {
+    margin: 0;
+    width: 17rem;
+    height: auto;
+    overflow: auto;
+  }
+  .f-size {
+    font-size: 5vw;
+  }
+  .f2 {
+    font-size: 3vw;
+  }
+  .custom-card {
+    width: 17rem;
+    height: 6rem;
+    max-height: max-content;
+    border-radius: 10px;
+  }
+  .valid-card {
+    width: 17rem;
+    height: max-content;
+    max-height: max-content;
+    border-radius: 10px;
+    background-color: #384b97;
+  }
+  .f1 {
+    font-size: 15px;
+  }
+  .f4 {
+    font-size: 11px;
+  }
+}
